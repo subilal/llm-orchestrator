@@ -1,0 +1,8 @@
+services:
+  llm-orch:
+    build: .
+    container_name: llm_container
+    ports:
+      - "8092:5000"
+    env_file:
+      - .env

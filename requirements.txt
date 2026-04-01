@@ -2,3 +2,5 @@ mistralai
 python-dotenv
 openai
 flask
+groq
+
